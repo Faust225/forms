@@ -1,0 +1,52 @@
+html {
+	background: #00b241;
+}
+
+.greenForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #7c7c7c;
+}
+
+form {
+	margin-top: 12%;
+	margin-bottom: 12%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: #fff;
+	padding-bottom: 20px;
+}
+
+input {
+	width: 90%;
+	margin: 5px auto;
+	padding: 8px;
+}
+
+h1 {
+	font-size: 30px;
+	padding: 15px 0;
+	padding-right: 50px;
+	padding-left: 20px;
+}
+
+p {
+	padding-bottom: 15px;
+	padding-right: 50px;
+	padding-left: 20px;
+}
+
+.specialInput {
+	height: 100px;
+	padding-bottom: 70px;
+}
+
+.submitButton { 
+	padding: 8px;
+	border: none;
+	color: #fff;
+	background: #00b241;
+	margin-top: 10px;
+}
