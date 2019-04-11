@@ -1,0 +1,71 @@
+html {
+	background: rgb(47,116,245);
+background: -moz-linear-gradient(135deg, rgba(47,116,245,1) 1%, rgba(85,196,249,1) 100%);
+background: -webkit-linear-gradient(135deg, rgba(47,116,245,1) 1%, rgba(85,196,249,1) 100%);
+background: linear-gradient(135deg, rgba(47,116,245,1) 1%, rgba(85,196,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2f74f5",endColorstr="#55c4f9",GradientType=1);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100%;
+}
+
+.col-6 {
+	background: #fff;
+}
+
+.blueForm {
+	background: #fff;
+	width: 80%;
+	height: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13%;
+	margin-bottom: 13%;
+	border-radius: 10px;
+}
+
+img{
+	display: inline-block;
+	width: 300px;
+	height: 512px;
+	border-top-left-radius: 10px;
+}
+
+.formSection {
+	display: inline-block;
+	border-top-right-radius: 10px;
+}
+
+label {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 20px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+}
+
+input {
+	background: #e6e6e6;
+	border: none;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 2% 5%;
+}
+
+.messageInput {
+	height: 150px;
+	padding-bottom: 120px;
+	border-radius: 20px;
+}
+
+.submitButton {
+	color: #fff;
+	background: #72b357;
+	margin: 0 35%;
+}
