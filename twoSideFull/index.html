@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!-- fontAwesome  -->
+    <link rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+     crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/grid.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="col-7 imageSide"><button> (+100) 345 6389</button></div>
+	<div class="col-5 rightSide">
+		<form id="myForm">
+			<h1>Contact Us</h1>
+			<label>Name</label>
+			<input type="text" placeholder="Name">
+			<label>Email</label>
+			<input type="email" placeholder="Email address">
+			<label>Phone</label>
+			<input type="tel" pattern="[0-9]{9}" placeholder="Phone Number">
+			<label>Message</label>
+			<input type="text" placeholder="Questions/Comments" class="comments">
+			<input type="submit" form="myForm">
+			<!-- <div class="buttonRight">
+				<input type="submit" form="myForm">
+			</div> -->
+		</form>
+	</div>
+</body>
+</html>

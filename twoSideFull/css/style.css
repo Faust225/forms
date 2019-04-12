@@ -1,0 +1,78 @@
+.imageSide {
+	background: url(images/alien.png) center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+}
+
+button {
+	background: #3db14f;
+	border: none;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 20px;
+}
+
+/* left side end */
+
+.rightSide {
+	display: flex;
+	justify-content: flex-start;
+}
+
+h1 {
+	font-size: 30px;
+	color: #2b2c30;
+	font-weight: bold;
+}
+
+label {
+	padding-top: 20px;
+	font-size: 20px;
+	color: #a2a3a0;
+	font-weight: bold;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 100%;
+	margin-left: 10%;
+}
+
+input {
+	width: 100%;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	padding-top: 10px;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+input.comments {
+	height: 120px;
+	padding-bottom: 100px;
+}
+
+input[type=submit] {
+	width: 50%;
+	color: #fff;
+	border: none;
+	margin-left: 40%;
+	background: rgb(215,5,116);
+	padding: 15px;
+	font-weight: bold;
+	border-radius: 30px;
+background: -moz-linear-gradient(90deg, rgba(215,5,116,1) 1%, rgba(224,54,55,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(215,5,116,1) 1%, rgba(224,54,55,1) 100%);
+background: linear-gradient(90deg, rgba(215,5,116,1) 1%, rgba(224,54,55,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d70574",endColorstr="#e03637",GradientType=1);
+}

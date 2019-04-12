@@ -1,0 +1,112 @@
+.allContent {
+	display: flex;
+	justify-content: center;
+	margin: 13% 0;
+}
+
+.leftSide {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: url(images/color.png) center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 40%;
+}
+
+.threeElements {
+	padding: 15px;
+	width: 70%;
+}
+
+i {
+	color: #fff;
+	font-size: 20px;
+}
+
+h3 {
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	padding: 0 0 15px 15px
+}
+
+p {
+	
+	color: silver;
+	padding-left: 30px;
+}
+
+.greenColor {
+	color: #2f663e;
+}
+
+/* end of left side */
+
+.rightSide {
+	width: 50%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 10px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+}
+input {
+	font-size: 17px;
+}
+
+.removeMarg {
+	margin-right: -1%;
+}
+
+.addMarg {
+	margin-right: 0.1%;
+}
+
+input, label, textarea {
+	padding: 10px;
+}
+
+label {
+	border-top: 1px solid silver;
+	border-right: 1px solid silver;
+	border-left: 1px solid silver;
+	width: 100%;
+	display: block;
+}
+
+input[type=submit] {
+	margin: 0 25%;
+	background: #4ba966;
+	border: none;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.threeBlocks {
+	margin: 2% 0;
+}
+
+.nameLastName {
+	width: 100%;
+}
+
+.nameLastName input {
+	width: 50%;
+}
+
+.inputFullWidth {
+	width: 100%;
+}
+
+textarea {
+	height: 150px;
+}
